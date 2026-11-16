@@ -3,7 +3,7 @@ layout: page
 sidebar: false
 aside: false
 pageClass: rvp-home
-title: RVP Wiki (English)
+title: English Wiki
 ---
 
 <div class="rvp-hero">

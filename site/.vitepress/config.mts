@@ -19,7 +19,7 @@ const zhTheme = {
     { text: '配置与许可', link: '/wiki/config.html' },
     { text: 'GitHub', link: 'https://github.com/TV90/limitless-vehicle-rvp-addon' },
     { text: '下载', link: 'https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1' },
-    { text: 'English', link: '/en/' }
+    { text: 'English Wiki', link: '/en/' }
   ],
   sidebar: {
     '/wiki/': [
@@ -84,7 +84,7 @@ const enTheme = {
     { text: 'Config', link: '/en/wiki/config.html' },
     { text: 'GitHub', link: 'https://github.com/TV90/limitless-vehicle-rvp-addon' },
     { text: 'Download', link: 'https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1' },
-    { text: '中文', link: '/' }
+    { text: '中文 Wiki', link: '/' }
   ],
   sidebar: {
     '/en/wiki/': [
