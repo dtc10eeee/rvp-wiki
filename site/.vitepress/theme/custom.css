@@ -283,3 +283,96 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* 首页是自定义 HTML 布局，内容不在 .vp-doc 内，VitePress 默认排版样式不生效；这里补齐 */
+.VPPage > div > div:not([class]) h2 {
+  margin: 28px 0 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.VPPage > div > div:not([class]) p {
+  margin: 12px 0;
+  line-height: 1.7;
+  color: var(--vp-c-text-1);
+}
+
+.VPPage > div > div:not([class]) hr {
+  margin: 24px 0;
+  border: 0;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.VPPage > div > div:not([class]) ul,
+.VPPage > div > div:not([class]) ol {
+  margin: 12px 0 18px;
+  padding-left: 24px;
+  color: var(--vp-c-text-1);
+  line-height: 1.75;
+}
+
+.VPPage > div > div:not([class]) ul {
+  list-style: disc;
+}
+
+.VPPage > div > div:not([class]) ol {
+  list-style: decimal;
+}
+
+.VPPage > div > div:not([class]) li {
+  margin: 4px 0;
+}
+
+.VPPage > div > div:not([class]) table {
+  display: block;
+  width: 100%;
+  margin: 20px 0 28px;
+  border-collapse: collapse;
+  overflow-x: auto;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+}
+
+.VPPage > div > div:not([class]) tr {
+  background-color: var(--vp-c-bg);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.VPPage > div > div:not([class]) tr:nth-child(2n) {
+  background-color: var(--vp-c-bg-soft);
+}
+
+.VPPage > div > div:not([class]) th,
+.VPPage > div > div:not([class]) td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 8px 16px;
+  vertical-align: top;
+}
+
+.VPPage > div > div:not([class]) th {
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--vp-c-text-2);
+  background-color: var(--vp-c-bg-soft);
+}
+
+.VPPage > div > div:not([class]) table a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.VPPage > div > div:not([class]) table a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .VPPage > div > div:not([class]) th,
+  .VPPage > div > div:not([class]) td {
+    padding: 6px 10px;
+    white-space: normal;
+  }
+}
