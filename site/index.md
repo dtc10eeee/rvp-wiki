@@ -6,7 +6,7 @@ hero:
   text: RealVehiclePack
   tagline: Limitless Vehicle 的大型附属 Mod · Minecraft 1.20.1 / Forge
   image:
-    src: /images/rvp-logo.png
+    src: /images/rvp-banner.png
     alt: RVP logo
   actions:
     - theme: brand
