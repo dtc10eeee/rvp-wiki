@@ -118,6 +118,9 @@
 
 .VPHero .image-src {
   position: static;
+  left: auto;
+  top: auto;
+  transform: none;
   display: block;
   width: 100%;
   max-width: 760px;
