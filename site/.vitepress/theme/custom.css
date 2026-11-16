@@ -81,17 +81,20 @@
 }
 
 .VPHero .main {
-  display: block;
-  width: 100%;
-  max-width: 900px;
+  display: contents;
 }
 
 .VPHero .heading,
 .VPHero .tagline {
+  order: 0;
+  width: 100%;
+  max-width: 900px;
   text-align: center;
 }
 
 .VPHero .actions {
+  order: 3;
+  margin-top: 20px;
   justify-content: center;
 }
 
