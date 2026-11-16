@@ -93,7 +93,7 @@
   }
 }
 
-/* links in homepage raw HTML content */（Release 页面 / README_EN.md / docs/README.md 等） */
+/* links in homepage raw HTML content */
 .VPPage > div > div:not([class]) a {
   color: var(--vp-c-brand-1);
   text-decoration: none;
