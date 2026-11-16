@@ -72,7 +72,7 @@
     grid-template-columns: 1fr;
   }
 }
-/* RVP logo below the home hero tagline/actions */
+/* RVP logo banner below the tagline, before the action buttons */
 .VPHero .container {
   display: flex;
   flex-direction: column;
@@ -80,20 +80,33 @@
 }
 
 .VPHero .main {
-  order: 1;
+  display: contents;
+}
+
+.VPHero .heading,
+.VPHero .tagline {
+  order: 0;
+}
+
+.VPHero .actions {
+  order: 3;
+  margin-top: 20px;
 }
 
 .VPHero .image {
   order: 2;
-  margin: 24px 0 0;
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 26px 0 6px;
   transform: none;
 }
 
 .VPHero .image-container {
-  width: 200px;
-  height: 200px;
+  position: relative;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
   transform: none;
 }
 
@@ -102,9 +115,13 @@
 }
 
 .VPHero .image-src {
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 16px;
+  position: static;
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  max-height: none;
+  height: auto;
+  border-radius: 14px;
   border: 1px solid rgba(26, 255, 255, 0.25);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
 }
