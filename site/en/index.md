@@ -5,6 +5,9 @@ hero:
   name: RVP
   text: RealVehiclePack
   tagline: A large addon for Limitless Vehicle · Minecraft 1.20.1 / Forge
+  image:
+    src: /images/rvp-logo.png
+    alt: RVP logo
   actions:
     - theme: brand
       text: Download RVP
