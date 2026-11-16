@@ -92,3 +92,23 @@
     white-space: normal;
   }
 }
+
+/* links in homepage raw HTML content */（Release 页面 / README_EN.md / docs/README.md 等） */
+.VPPage > div > div:not([class]) a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  border-bottom: 1px solid var(--vp-c-brand-soft);
+}
+
+.VPPage > div > div:not([class]) a:hover {
+  color: var(--vp-c-brand-2);
+  border-bottom-color: var(--vp-c-brand-2);
+}
+
+@media (max-width: 640px) {
+  .VPPage > div > div:not([class]) th,
+  .VPPage > div > div:not([class]) td {
+    padding: 6px 10px;
+    white-space: normal;
+  }
+}
