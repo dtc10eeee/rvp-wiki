@@ -1,30 +1,27 @@
 ---
-layout: home
+layout: page
+sidebar: false
+aside: false
+pageClass: rvp-home
 title: RVP Wiki (English)
-hero:
-  name: RVP
-  text: RealVehiclePack
-  tagline: A large addon for Limitless Vehicle · Minecraft 1.20.1 / Forge
-  image:
-    src: /images/rvp-banner.png
-    alt: RVP logo
-  actions:
-    - theme: brand
-      text: Download RVP
-      link: https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1
-    - theme: alt
-      text: Start reading
-      link: /en/wiki/weapons.html
-features:
-  - title: Weapon systems
-    details: Anti-radiation, man-in-the-loop, active/semi-active radar, laser and GPS guidance with extensive ammunition customization.
-  - title: Support equipment
-    details: ERA, APS, active/passive ECM, EO jammer, DIRCM, countermeasures and maintenance.
-  - title: Modular damage
-    details: Part and module damage with independent durability, multipliers, failure effects and repair order.
-  - title: Tactical map and AI
-    details: GPS designation, radar target list, artillery map, and AI crew that can drive vehicles.
 ---
+
+<div class="rvp-hero">
+  <h1 class="rvp-name"><span class="rvp-brand">RVP</span><span class="rvp-title">RealVehiclePack</span></h1>
+  <p class="rvp-tagline">A large addon for Limitless Vehicle · Minecraft 1.20.1 / Forge</p>
+  <img class="rvp-banner" src="/images/rvp-banner.png" alt="RVP">
+  <div class="rvp-actions">
+    <a class="rvp-btn brand" href="https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1">Download RVP</a>
+    <a class="rvp-btn alt" href="/en/wiki/weapons.html">Start reading</a>
+  </div>
+</div>
+
+<div class="rvp-features">
+  <div class="rvp-feature"><h3>Weapon systems</h3><p>Anti-radiation, man-in-the-loop, active/semi-active radar, laser and GPS guidance with extensive ammunition customization.</p></div>
+  <div class="rvp-feature"><h3>Support equipment</h3><p>ERA, APS, active/passive ECM, EO jammer, DIRCM, countermeasures and maintenance.</p></div>
+  <div class="rvp-feature"><h3>Modular damage</h3><p>Part and module damage with independent durability, multipliers, failure effects and repair order.</p></div>
+  <div class="rvp-feature"><h3>Tactical map and AI</h3><p>GPS designation, radar target list, artillery map, and AI crew that can drive vehicles.</p></div>
+</div>
 
 ## Gallery
 

@@ -1,30 +1,27 @@
 ---
-layout: home
+layout: page
+sidebar: false
+aside: false
+pageClass: rvp-home
 title: RVP Wiki
-hero:
-  name: RVP
-  text: RealVehiclePack
-  tagline: Limitless Vehicle 的大型附属 Mod · Minecraft 1.20.1 / Forge
-  image:
-    src: /images/rvp-banner.png
-    alt: RVP logo
-  actions:
-    - theme: brand
-      text: 下载 RVP
-      link: https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1
-    - theme: alt
-      text: 开始阅读
-      link: /wiki/weapons.html
-features:
-  - title: 武器系统
-    details: 反辐射、人在回路、主动/半主动雷达、激光与 GPS 制导，配套丰富弹种和挂载改装。
-  - title: 辅助设备
-    details: ERA、APS、主动/被动 ECM、光电干扰机、DIRCM、干扰弹与维修设备。
-  - title: 模块化损伤
-    details: 按部位和模块结算，独立耐久、伤害倍率、失效效果与维修顺序。
-  - title: 战术地图与 AI
-    details: GPS 装订、雷达目标列表、炮兵地图，以及可驾驶载具的 AI 乘员。
 ---
+
+<div class="rvp-hero">
+  <h1 class="rvp-name"><span class="rvp-brand">RVP</span><span class="rvp-title">RealVehiclePack</span></h1>
+  <p class="rvp-tagline">Limitless Vehicle 的大型附属 Mod · Minecraft 1.20.1 / Forge</p>
+  <img class="rvp-banner" src="/images/rvp-banner.png" alt="RVP">
+  <div class="rvp-actions">
+    <a class="rvp-btn brand" href="https://github.com/TV90/limitless-vehicle-rvp-addon/releases/tag/1.0.0_preview_0.6.2.1">下载 RVP</a>
+    <a class="rvp-btn alt" href="/wiki/weapons.html">开始阅读</a>
+  </div>
+</div>
+
+<div class="rvp-features">
+  <div class="rvp-feature"><h3>武器系统</h3><p>反辐射、人在回路、主动/半主动雷达、激光与 GPS 制导，配套丰富弹种和挂载改装。</p></div>
+  <div class="rvp-feature"><h3>辅助设备</h3><p>ERA、APS、主动/被动 ECM、光电干扰机、DIRCM、干扰弹与维修设备。</p></div>
+  <div class="rvp-feature"><h3>模块化损伤</h3><p>按部位和模块结算，独立耐久、伤害倍率、失效效果与维修顺序。</p></div>
+  <div class="rvp-feature"><h3>战术地图与 AI</h3><p>GPS 装订、雷达目标列表、炮兵地图，以及可驾驶载具的 AI 乘员。</p></div>
+</div>
 
 ## 画廊
 
